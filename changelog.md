@@ -3,6 +3,41 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.1] - 2026-03-04
+
+## Fixed
+
+- Vector3.transformQuaternionOther now not only calculates but also returns the result
+- Quaternion.normalize, Quaternion.inverse and Quaternion.inverseOther no longer return wrong results
+
+## [0.2.0] - 2026-02-23
+
+### Added
+
+- Transparency support in rendering engine
+
+#### Core
+
+- Timer class for getting delta time
+- Getters for left, right, top, bottom, near and far in OrthographicCamera
+- Setters for left, right, top, bottom, near and far in OrthographicCamera
+- Ability to add or remove event listeners to camera class that are notified whenever the camera's view changes
+- StandardController camera controller supporting movement via keyboard and mouse input
+- Quaternion math class
+- Add transformMatrix3 and transformMatrix3Other to Vector3
+- Add transformQuaternion and transformQuaternionOther to Vector3
+- Add createRotateX, createRotateY, createRotateZ to Matrix3
+
+#### Utility
+
+- Performance monitor for displaying current fps rate
+
+## [0.1.3] - 2026-01-24
+
+### Fixed
+
+- Canvas resizing after initializing no longer results in a black canvas
+
 ## [0.1.2] - 2026-01-01
 
 ### Fixed
