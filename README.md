@@ -5,9 +5,22 @@
 A lightweight, dependency-free 3D rendering engine for WebGPU, written in pure JavaScript.
 This is an experimental project under active development. The API is subject to change, and you may encounter bugs. Use in production environments is not recommended at this time.
 
-See:
-https://github.com/saallisa/Illuvision
-Example Site:
-illuvision.serviceio.de/
-Seperate Reason:
-https://github.com/saallisa/Illuvision/pull/9
+---
+
+## Original Project
+
+The original version is from [saallisa](https://github.com/saallisa) of the project [Illuvision](https://github.com/saallisa/Illuvision).
+
+## Motivation
+
+I created these files to deploy them on my server out of interest.\
+The example files in the examples folder should be accessible this way.\
+As described in pull request [#9](https://github.com/saallisa/Illuvision/pull/9), Docker doesn't fit well with this project.
+
+## Additional Information
+
+Currently, this Docker build can be found on the website [illuvision.serviceio.de](https://illuvision.serviceio.de).
+
+---
+
+This project expects minimal changes going forward.
