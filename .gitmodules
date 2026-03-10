@@ -1,3 +1,4 @@
-[submodule "Illuvision"]
+[submodule "illuvision"]
 	path = Illuvision
 	url = git@github.com:saallisa/Illuvision.git
+    branch = main
