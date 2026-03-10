@@ -1,8 +1,8 @@
 FROM nginx:alpine
 
 # Copy folder to the correct location
-COPY examples /usr/share/nginx/html/examples
-COPY src /usr/share/nginx/html/src
+COPY Illuvision/examples /usr/share/nginx/html/examples
+COPY Illuvision/src /usr/share/nginx/html/src
 
 # Copy nginx file
 COPY nginx.conf /etc/nginx/conf.d/default.conf
